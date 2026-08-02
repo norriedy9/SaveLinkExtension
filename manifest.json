@@ -5,5 +5,18 @@
     "action": {
         "default_popup": "index.html",
         "default_icon": "icon.png"
+    },
+
+
+    "browser_specific_settings": {
+    "gecko": {
+        "id": "firstextension@wow.wow",
+        "data_collection_permissions": {
+        "required": [
+            "none"
+            ]
+        },
+        "strict_min_version": "58.0"
     }
+}
 }
